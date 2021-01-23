@@ -1,0 +1,88 @@
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    user-select: none;
+    z-index: 1001;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #dddddd;
+    transition: 0.3s;
+}
+
+/* Logo */
+
+.logo {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    height: 100%;
+}
+.logo h1 {
+    text-transform: uppercase;
+    font-family: scada;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 13px;
+    padding: 0 5px;
+    letter-spacing: 1px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.navbar > p {
+    height: 100%;
+    margin: 25px 0px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444;
+}
+.navbar > p:hover {
+    color: var(--primary-color);
+}
+
+.active-section {
+    color: var(--primary-color);
+}
+
+/* IconTray */
+.iconTray {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.iconTray__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    margin-right: 30px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: var(--speed) ease-in-out;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+.iconTray__icon:hover {
+    fill: var(--primary-color) !important;
+    background: rgba(255, 0, 0, .3);
+}
+
+.iconTray__icon:last-child {
+    margin-right: 0;
+}

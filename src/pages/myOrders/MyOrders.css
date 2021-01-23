@@ -1,0 +1,86 @@
+.myOrders {
+    height: 100%;
+}
+.myOrders__title {
+    font-size: 24px;
+    color: #333333;
+    font-weight: normal;
+}
+.myOrders main {
+    /* height: calc(100% - 25px); */
+    /* background: red; */
+    /* overflow-y: auto; */
+    padding-right: 25px;
+}
+.myOrders__order {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
+    padding: 25px 0;
+}
+.myOrders__orderInfo {
+    width: 65%;
+    display: flex;
+}
+.myOrders__orderPhoto {
+    width: 90px;
+    height: 90px;
+    border: 10px solid #dddddd;
+}
+
+.myOrders__orderInfo > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.myOrders__orderId {
+    font-size: 14px;
+    color: #777777;
+}
+.myOrders__orderItem {
+    margin: 5px 0;
+    font-weight: 600;
+    line-height: 23px;
+    color: #333333;
+}
+.myOrders__orderDelivery {
+    font-size: 14px;
+    color: #777777;
+}
+
+.myOrders__orderPaymentInfo {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.myOrders__orderPaymentType {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: right;
+    color: #777777;
+
+}
+.myOrders__orderPaymentPrice {
+    font-weight: 00;
+    font-size: 20px;
+    text-align: right;
+    color: #333333;
+}
+.myOrders__orderArrow {
+    text-align: right;
+}
+.myOrders__orderStatus {
+    position: absolute;
+    font-weight: normal;
+    font-size: 14px;
+    border-radius: 6px 6px 0px 0px;
+    bottom: 0;
+    right: 0;
+    width: 85px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
