@@ -43,6 +43,7 @@
     font-weight: 600;
     line-height: 23px;
     color: #333333;
+    font-size: 16px;
 }
 .myOrders__orderDelivery {
     font-size: 14px;
@@ -53,22 +54,25 @@
     width: 35%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+.myOrders__orderPaymentInfoPay {
+    display: flex;
+    flex-direction: column;
 }
 .myOrders__orderPaymentType {
     font-weight: normal;
     font-size: 14px;
     text-align: right;
     color: #777777;
-
 }
 .myOrders__orderPaymentPrice {
-    font-weight: 00;
     font-size: 20px;
     text-align: right;
     color: #333333;
 }
 .myOrders__orderArrow {
+    /* width: fit-content; */
     text-align: right;
 }
 .myOrders__orderStatus {
@@ -83,4 +87,53 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Responsive */
+@media only screen and (max-width: 580px) {
+    .myOrders__order {
+        display: flex;
+        flex-direction: column;
+    }
+    .myOrders__orderInfo {
+        width: 100%;
+    }
+
+    .myOrders__orderPaymentInfo {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .myOrders__orderPaymentType {
+        text-align: left;
+    }
+    .myOrders__orderPaymentPrice {
+        text-align: left;
+    }
+    .myOrders__orderArrow {
+        height: fit-content;
+        transform: rotate(-90deg);
+    }
+    .myOrders__orderPhoto {
+        width: 70px;
+        height: 70px;
+        border: 7px solid #dddddd;
+    }
+    .myOrders__orderId {
+        font-size: 11px;
+    }
+    .myOrders__orderItem {
+        font-size: 12px;
+    }
+    .myOrders__orderDelivery {
+        font-size: 11px;
+    }
+    .myOrders__orderPaymentType {
+        font-size: 11px;
+    }
+    .myOrders__orderPaymentPrice {
+        font-size: 11px;
+        font-weight: bold;
+    }
 }

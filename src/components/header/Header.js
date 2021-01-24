@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import Logo from './Logo';
 import './Header.css';
 import Navbar from './Navbar';
-import IconTray from './IconTray';
+import Logo from '../logo/Logo';
+import Menu from './Menu';
 
 function Header() {
-    const [style, setStyle] = useState()
+    const [style, setStyle] = useState();
+
     function listenScrollEvent(e) {
         if (window.scrollY > 60) {
             setStyle({
@@ -13,7 +14,7 @@ function Header() {
                 boxShadow: '0 0 5px gainsboro'
             })
         } else {
-            setStyle()
+            setStyle();
         }
     }
 
@@ -24,7 +25,7 @@ function Header() {
         <header className="header" style={style}>
             <Logo />
             <Navbar />
-            <IconTray />
+            <Menu />
         </header>
     )
 }

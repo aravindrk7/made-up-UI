@@ -1,0 +1,19 @@
+/* Logo */
+
+.logo {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    height: 100%;
+    /* width: 100%; */
+}
+.logo h1 {
+    text-transform: uppercase;
+    font-family: scada;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 0 5px;
+    padding-top: 13px;
+    letter-spacing: 1px;
+}

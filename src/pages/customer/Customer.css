@@ -82,12 +82,47 @@
     font-size: 11px;
     color: #9b9b9b;
 }
+.customerRoute__arrow{
+    height: fit-content;
+    transition: .3s ease-in-out;
+}
 
 /* Main */
 
 .customer__main {
     border: 1px solid #000;
-    /* height: calc(100vh - 250px); */
     padding: 25px;
 }
 
+/* Mobile */
+.customerMobile {
+    display: none;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 40px;
+    width: 100%;
+}
+
+/* Responsive */
+@media only screen and (max-width: 870px) {
+    .customer {
+        display: none;
+    }
+    .customerMobile {
+        display: flex;
+    }
+    .customer__routes {
+        margin-top: 0px;
+    }
+    .customerRoute__header {
+        padding: 20px 0;
+        width: 100%;
+        border-bottom: 1px solid #000;
+    }
+    .customer__nav {
+        width: 100%;
+    }
+    .customerRoute__arrow{
+        margin-top: 20px;
+    }
+}

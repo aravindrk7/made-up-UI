@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import './Header.css';
+import './Logo.css';
 import RouteContext from '../../contexts/RouteContext';
 
 function Logo() {

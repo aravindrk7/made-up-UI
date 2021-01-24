@@ -6,6 +6,10 @@
   font-family: scada;
   src: url(assets/fonts/Scada-Regular.ttf);
 }
+@font-face {
+  font-family: bankGothic;
+  src: url(assets/fonts/BankGothic-Regular.ttf);
+}
 
 :root {
   --primary-color: #E10000;
