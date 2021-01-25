@@ -111,7 +111,9 @@
 
 /* Responsive */
 @media only screen and (max-width: 870px) {
-    .navbar {
+    .navbar,
+    .cart,
+    .user {
         display: none;
     }
     .bar {

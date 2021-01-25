@@ -15,7 +15,7 @@ function MyProfile() {
                 <input type="password" placeholder="Password" />
                 <input type="password" placeholder="Confirm Password" />
                 <div className="myProfile__buttonContainer">
-                    <button>Add New Address</button>
+                    <button>Save Changes</button>
                 </div>
             </main>
         </div>

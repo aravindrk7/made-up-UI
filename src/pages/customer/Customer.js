@@ -21,6 +21,7 @@ function Customer() {
     const getCurrentSection = (section) => {
         if (section === "myProfile") return <MyProfile />
         if (section === "myOrders") return <MyOrders />
+        if (section === "shippingAddress") return <ShippingAddress />
         return null
     }
     const checkActiveSection = (section) => {
@@ -32,7 +33,7 @@ function Customer() {
                 <div className="customer__title">
                     <p>{currentRoute === "myProfile"
                         ? "Home / My Profile"
-                        : "Home / My Orders"}</p>
+                        : currentRoute === "myOrders" ? "Home / My Orders" : "Home / Shipping Address"}</p>
                 </div>
                 <main>
                     <section className="customer__nav">

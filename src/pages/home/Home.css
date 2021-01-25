@@ -1,5 +1,6 @@
 .home {
     margin-top: 70px;
+    user-select: none;
 }
 
 /* Gallery */
@@ -104,6 +105,7 @@
     align-items: center;
     justify-content: center;
     padding: 35px 0;
+    width: auto;
 }
 .home__collections__Item {
     margin-right: 10px;
@@ -131,7 +133,7 @@
 /* Testimonials */
 .home__testimonials {
     background: #f9f9f9;
-    padding: 50px;
+    padding: 50px 0 ;
 }
 
 .home__testimonials > h1 {
@@ -143,11 +145,13 @@
     text-align: center;
 }
 .home__testimonialsItems {
+    padding: 0 50px;
     padding-top: 50px;
     padding-bottom: 25px;
     display: flex;
 }
 .home__testimonialsItem {
+    min-width: 340px;
     position: relative;
     background: #ffffff;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
@@ -219,6 +223,7 @@
     transform: translate(-50%, -50%);
 }
 .home__subscribeInfo > h1 {
+    white-space: nowrap;
     font-weight: 600;
     font-size: 24px;
     color: #ffffff;
@@ -239,6 +244,7 @@
     height: 40px;
     padding: 5px 15px;
     width: 360px;
+    margin-right: 10px;
 }
 .home__subscribeInfo > div > button {
     height: 40px;
@@ -273,4 +279,90 @@
     font-size: 16px;
     color: #dddddd;
     text-transform: uppercase;
+}
+
+/* Tab */
+.tabContainer {
+    display: none;
+    padding: 20px;
+}
+.tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.tab:last-child {
+    margin-right: 0;
+}
+.ImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: #ffe1f6;
+}
+.ImageContainer img {
+    height: 40px;
+}
+.tabContainer p {
+    font-weight: normal;
+    font-size: 12px;
+    color: #777777;
+}
+
+/* Responsive */
+@media only screen and (max-width: 870px) {
+    .tabContainer {
+        display: block;
+    }
+}
+@media only screen and (max-width: 820px) {
+    .home__gallery {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, 500px);
+    }
+    .home__photo1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .home__photo2 {
+        grid-row: 2;
+    }
+    .home__photo3 {
+        grid-row: 3;
+    }
+    .home__photo4 {
+        grid-row: 4;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .home__subscribeInfo > div {
+        flex-direction: column;
+    }
+    .home__subscribeInfo > div > input {
+        width: 300px;
+    }
+    .home__subscribeInfo > div > button {
+        margin-top: 15px;
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .home__gallery {
+        grid-template-rows: repeat(4, 400px);
+    }
+    .home__subscribeInfo > h1 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .home__gallery {
+        grid-template-rows: repeat(4, 360px);
+    }
 }

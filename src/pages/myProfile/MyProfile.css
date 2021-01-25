@@ -61,4 +61,7 @@
         flex-direction: column;
         justify-content: space-between;
     }
+    .myProfile__buttonContainer > button {
+        width:100%;
+    }
 }
