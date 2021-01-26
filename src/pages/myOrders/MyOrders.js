@@ -1,7 +1,9 @@
 import React from 'react';
 import './MyOrders.css';
 import Order from './Order';
-import ordersData from './../../data/orders.json'
+import model1 from './../../assets/images/models/model1.jpg';
+
+import ordersData from './../../data/orders.json';
 
 function MyOrders() {
     return (
@@ -11,6 +13,7 @@ function MyOrders() {
                 {ordersData?.map(order => (
                     <Order
                         key={order.id}
+                        image={model1}
                         id={order.id}
                         item={order.item}
                         delivery={order.delivery}

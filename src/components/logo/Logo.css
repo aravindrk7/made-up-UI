@@ -1,10 +1,7 @@
-/* Logo */
-
 .logo {
     cursor: pointer;
     background-color: var(--primary-color);
     height: 100%;
-    /* width: 100%; */
 }
 .logo h1 {
     text-transform: uppercase;

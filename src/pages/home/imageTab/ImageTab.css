@@ -1,0 +1,36 @@
+.imageTab {
+    display: flex;
+    padding: 20px;
+}
+.tabItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.tabItem:last-child {
+    margin-right: 0;
+}
+.tabItem__imageContainer {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background: #ffe1f6;
+}
+.tabItem__active {
+    border: 1px solid var(--primary-color);
+}
+.tabItem__imageContainer img {
+    height: 40px;
+}
+.tabItem__title {
+    font-weight: normal;
+    font-size: 12px;
+    color: #777777;
+}

@@ -3,13 +3,9 @@ import './Logo.css';
 import RouteContext from '../../contexts/RouteContext';
 
 function Logo() {
-    const { currentRoute, setCurrentRoute } = useContext(RouteContext);
-    const navigateTo = (route) => {
-        setCurrentRoute(route);
-        console.log(route);
-    }
+    const { setCurrentRoute } = useContext(RouteContext);
     return (
-        <div className="logo" onClick={() => navigateTo('home')}>
+        <div className="logo" onClick={() => setCurrentRoute('home')}>
             <h1>Made Up</h1>
         </ div>
     )

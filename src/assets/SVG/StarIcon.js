@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Star() {
+function StarIcon() {
     return (
         <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M6.5 0.335938L8.45 4.69994L13 5.29994L9.655 8.59994L10.517 13.3359L6.5 11.0099L2.483 13.3359L3.345 8.59994L0 5.30194L4.55 4.70194L6.5 0.335938Z" fill="#FDC02F" />
@@ -8,4 +8,4 @@ function Star() {
     )
 }
 
-export default Star;
+export default StarIcon;

@@ -29,16 +29,17 @@
     font-size: 14px;
     font-weight: 400;
     color: #444;
+    transition: 0.3s ease-in-out;
 }
 .navbar > p:hover {
     color: var(--primary-color);
 }
 
-.active-section {
-    color: var(--primary-color);
+.activeRoute{
+    color: var(--primary-color) !important;
 }
 
-/* IconTray */
+/* Menu */
 .menu {
     display: flex;
     align-items: center;
@@ -49,28 +50,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 100%; */
     margin-left: 30px;
     cursor: pointer;
     z-index: 1000;
     transition: var(--speed) ease-in-out;
-    /* font-size: 17px; */
     padding: 5px;
     border-radius: 5px;
     transition: 0.3s ease-in-out;
+    fill: #444;
 }
 .menu__icon:hover {
     fill: var(--primary-color) !important;
-    background: rgba(255, 0, 0, 0.3);
 }
 
-/* .iconTray__icon:last-child {
-    margin-right: 0;
-} */
 .bar {
     display: none;
 }
 
+/* SideMenu */
 .sideMenu {
     position: absolute;
     width: 300px;
@@ -78,14 +75,18 @@
     top: 0;
     right: 0;
     padding: 20px;
-    /* bottom: 0; */
     background: #fff;
     z-index: 10000;
-    box-shadow: 0 0 5px gainsboro;
+    box-shadow: 0 0 5px #666;
 }
 .sideMenu__close {
     text-align: right;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+    stroke: #444;
+}
+.sideMenu__close:hover {
+    stroke: var(--primary-color) !important;
 }
 .sideMenu__top,
 .sideMenu__bottom {
@@ -108,6 +109,7 @@
 .activeSideMenu {
     color: var(--primary-color);
 }
+
 
 /* Responsive */
 @media only screen and (max-width: 870px) {

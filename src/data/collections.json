@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Printed Polo T-Shirt",
+        "price": "1,499.00"
+    },
+    {
+        "id": 2,
+        "name": "Pure Cotton Jean",
+        "price": "2,099.00"
+    },
+    {
+        "id": 3,
+        "name": "Pure Cotton Jean",
+        "price": "2,099.00"
+    },
+    {
+        "id": 4,
+        "name": "Pure Cotton Jean",
+        "price": "2,099.00"
+    },
+    {
+        "id": 5,
+        "name": "Pure Cotton Jean",
+        "price": "2,099.00"
+    }
+]

@@ -4,11 +4,11 @@ import customer1 from './../../assets/images/customer/customer1.jpg'
 
 function CustomerInfo() {
     return (
-        <div className="customer__info">
-            <img className="customer__photo" src={customer1} alt="customer" />
+        <div className="customerInfo">
+            <img className="customerInfo__photo" src={customer1} alt="customer" />
             <div>
-                <p className="customer__name">Grishk</p>
-                <span className="customer__email">griiskaim@gmail.com</span>
+                <p className="customerInfo__name">Grishk</p>
+                <span className="customerInfo__email">griiskaim@gmail.com</span>
             </div>
         </div>
     )

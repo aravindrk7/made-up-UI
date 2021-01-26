@@ -1,0 +1,108 @@
+.subscription {
+    position: relative;
+    height: 360px;
+    padding: 0;
+}
+.subscription__overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.subscription > img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.subscription__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.subscription__info > h1 {
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.subscription__info > p {
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.subscription__info > div {
+    display: flex;
+}
+.subscription__info > div > input {
+    display: flex;
+    height: 40px;
+    padding: 5px 15px;
+    width: 360px;
+    margin-right: 10px;
+}
+.subscription__info > div > button {
+    height: 40px;
+    width: 125px;
+    background: var(--primary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.subscription > button {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+    background: #222222;
+    box-shadow: 6px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 6px 6px 0px 0px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 6px 0px 20px rgba(0, 0, 0, 0.25);
+}
+.subscription > button > span {
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #dddddd;
+    text-transform: uppercase;
+}
+
+/* Responsive */
+@media only screen and (max-width: 700px) {
+    .subscription__info > div {
+        flex-direction: column;
+    }
+    .subscription__info > div > input {
+        width: 300px;
+    }
+    .subscription__info > div > button {
+        margin-top: 15px;
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .subscription__info > h1 {
+        font-size: 20px;
+    }
+}

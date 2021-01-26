@@ -21,8 +21,9 @@
   border: none;
   outline: none;
   box-sizing: border-box;
-  font-family: jost;
+  user-select: none;
   scroll-behavior: smooth;
+  font-family: jost;
 }
 
 ::-webkit-scrollbar {

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Vikas",
+        "quote": "Love the cloth material! So breezy and comfortable. Really durable as well. I must say the jeans I bought was worth the price.",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "name": "Vikas",
+        "quote": "Love the cloth material! So breezy and comfortable. Really durable as well. I must say the jeans I bought was worth the price.",
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "name": "Vikas",
+        "quote": "Love the cloth material! So breezy and comfortable. Really durable as well. I must say the jeans I bought was worth the price.",
+        "rating": 5
+    }
+]
