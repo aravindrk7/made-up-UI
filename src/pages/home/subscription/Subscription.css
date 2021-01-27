@@ -100,9 +100,15 @@
         margin-top: 15px;
         width: 300px;
     }
+    .subscription > button {
+        right:0;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
 }
 @media only screen and (max-width: 450px) {
     .subscription__info > h1 {
         font-size: 20px;
     }
+    
 }

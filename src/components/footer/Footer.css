@@ -4,10 +4,12 @@
     background: #333333;
     display: flex;
     justify-content: space-between;
-    padding: 80px 180px;
+    padding: 80px 100px;
 }
 .footer__list {
     width: 220px;
+    padding-left: 80px;
+
 }
 .footer__list > p {
     font-weight: normal;
@@ -85,6 +87,9 @@
         height: auto;
 
         flex-direction: column;
+    }
+    .footer__list{
+        padding-left: 0;
     }
     .footer__list,
     .footer__links,
