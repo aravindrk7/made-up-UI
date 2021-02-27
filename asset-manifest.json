@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/madeUp-UI/static/css/main.509e5b44.chunk.css",
+    "main.js": "/madeUp-UI/static/js/main.c84eccf6.chunk.js",
+    "main.js.map": "/madeUp-UI/static/js/main.c84eccf6.chunk.js.map",
+    "runtime-main.js": "/madeUp-UI/static/js/runtime-main.47e886d2.js",
+    "runtime-main.js.map": "/madeUp-UI/static/js/runtime-main.47e886d2.js.map",
+    "static/js/2.2e6c5e9b.chunk.js": "/madeUp-UI/static/js/2.2e6c5e9b.chunk.js",
+    "static/js/2.2e6c5e9b.chunk.js.map": "/madeUp-UI/static/js/2.2e6c5e9b.chunk.js.map",
+    "index.html": "/madeUp-UI/index.html",
+    "static/css/main.509e5b44.chunk.css.map": "/madeUp-UI/static/css/main.509e5b44.chunk.css.map",
+    "static/js/2.2e6c5e9b.chunk.js.LICENSE.txt": "/madeUp-UI/static/js/2.2e6c5e9b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/madeUp-UI/static/media/Scada-Regular.bc06311e.ttf",
+    "static/media/model2.3339c460.jpg": "/madeUp-UI/static/media/model2.3339c460.jpg",
+    "static/media/model3.46ed8a57.jpg": "/madeUp-UI/static/media/model3.46ed8a57.jpg",
+    "static/media/model4.244941be.jpg": "/madeUp-UI/static/media/model4.244941be.jpg",
+    "static/media/model5.a16fc9f4.jpg": "/madeUp-UI/static/media/model5.a16fc9f4.jpg",
+    "static/media/model6.2edeb58f.jpg": "/madeUp-UI/static/media/model6.2edeb58f.jpg",
+    "static/media/model7.64d04aca.jpg": "/madeUp-UI/static/media/model7.64d04aca.jpg",
+    "static/media/model8.c02057a2.jpg": "/madeUp-UI/static/media/model8.c02057a2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47e886d2.js",
+    "static/js/2.2e6c5e9b.chunk.js",
+    "static/css/main.509e5b44.chunk.css",
+    "static/js/main.c84eccf6.chunk.js"
+  ]
+}
